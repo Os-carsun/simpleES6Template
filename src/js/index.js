@@ -1,5 +1,4 @@
 
-
 const sandboxProxies = new WeakMap()
 
 function compileCode (src) {  
@@ -32,5 +31,8 @@ const result = compileCode("return a;")
 
 console.log(result({a: 1000}));
 
-document.getElementById('test').innerHTML=1234589+"qqqqss"
+document.getElementById('test').innerHTML="qw"
+
+
+
 
